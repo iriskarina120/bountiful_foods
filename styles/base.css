@@ -77,7 +77,7 @@ header {
   nav ul li a:hover {
     background-color: #FFBA08; 
     color: #9D0208;
-    font-size: 2em;    
+    font-size: 1.2em;    
   }
   nav ul {
     display:flex;
