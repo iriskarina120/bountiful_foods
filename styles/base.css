@@ -88,9 +88,9 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    align-content: center; 
-    padding-left: 80px;  
+    align-content: center;    
   }
+  
   #img1 {
     grid-column: 1; 
   }
