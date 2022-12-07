@@ -5,7 +5,7 @@ header {
   height: 11rem;  
 }
 main{
-  width:min-content;
+  max-width: 100%;
 }
   .header-content {
     font-family: "Roboto", sans-serif;
@@ -70,7 +70,7 @@ main{
     border-top: 1px solid #9D0208; 
     font-size: 1em;
     padding-bottom: 10px;
-    height: 2rem;
+    height: 1rem;
     background-color: #9D0208;
   }
   nav ul li.active a {
@@ -79,8 +79,7 @@ main{
   }
   nav ul li a:hover {
     background-color: #FFBA08; 
-    color: #9D0208;
-    font-size: 1.2em;    
+    color: #9D0208;       
   }
   nav ul {
     display:flex;
