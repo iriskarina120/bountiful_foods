@@ -4,7 +4,7 @@ header {
   background-color: #9D0208;
   height: 9rem;  
 }
-main{
+body{
   max-width: 100%;
 }
   .header-content {
@@ -66,7 +66,8 @@ main{
   nav ul li a {    
     padding: 0.8rem 2vw;
     text-decoration:underline solid 10px;
-    color: #FFBA08;    
+    color: #FFBA08; 
+    
     font-size: 1em;
     padding-bottom: 10px;
     height: 1rem;
@@ -88,8 +89,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    align-content: center; 
-    width: 100%;   
+    align-content: center;    
   }
   .home-page{
     width: 100%;
