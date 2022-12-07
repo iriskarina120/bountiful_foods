@@ -2,7 +2,7 @@
 /*----------Header Styles----------*/
 header {
   background-color: #9D0208;
-  height: 11rem;  
+  height: 5rem;  
 }
 main{
   max-width: 100%;
@@ -10,7 +10,7 @@ main{
   .header-content {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
-    height: 5rem;
+    height: 3rem;
     color:#9D0208;    
     padding-top: 10px;
     padding-bottom: 10px;
@@ -106,7 +106,7 @@ main{
   
   .main-content{    
     align-items: center;    
-    padding: 70px;
+    max-width: 100%;
   }
   #main-text{
     grid-column: 2/3; 
