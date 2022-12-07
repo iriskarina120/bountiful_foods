@@ -65,9 +65,9 @@ header {
     text-decoration:underline solid 10px;
     color: #FFBA08; 
     border-top: 1px solid #9D0208; 
-    font-size: 1.2em;
+    font-size: 1em;
     padding-bottom: 10px;
-    height: 4rem;
+    height: 2rem;
     background-color: #9D0208;
   }
   nav ul li.active a {
