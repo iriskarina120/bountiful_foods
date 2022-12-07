@@ -2,7 +2,7 @@
 /*----------Header Styles----------*/
 header {
   background-color: #9D0208;
-  height: 10rem;  
+  height: 9rem;  
 }
 main{
   max-width: 100%;
@@ -10,7 +10,7 @@ main{
   .header-content {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
-    height: 5rem;
+    height: 4rem;
     color:#9D0208;    
     padding-top: 10px;
     padding-bottom: 10px;
