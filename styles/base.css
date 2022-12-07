@@ -4,6 +4,9 @@ header {
   background-color: #9D0208;
   height: 11rem;  
 }
+main{
+  width:min-content;
+}
   .header-content {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
