@@ -2,7 +2,7 @@
 /*----------Header Styles----------*/
 header {
   background-color: #9D0208;
-  height: 9rem;  
+  height: 10.5rem;  
 }
 
   .header-content {
@@ -63,9 +63,8 @@ header {
   }
   nav ul li a {    
     padding: 0.8rem 2vw;
-    text-decoration:underline solid 10px;
-    color: #FFBA08; 
-    
+    text-decoration:underline solid 5px;
+    color: #FFBA08;    
     font-size: 1em;
     padding-bottom: 10px;
     height: 1rem;
