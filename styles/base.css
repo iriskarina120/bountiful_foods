@@ -4,7 +4,7 @@ header {
   background-color: #9D0208;
   height: 9rem;  
 }
-body{
+.whole-page {
   max-width: 100%;
 }
   .header-content {
