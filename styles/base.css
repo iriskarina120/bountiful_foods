@@ -4,9 +4,7 @@ header {
   background-color: #9D0208;
   height: 9rem;  
 }
-.whole-page {
-  max-width: 100%;
-}
+
   .header-content {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
@@ -90,11 +88,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     align-content: center;    
-  }
-  .home-page{
-    width: 100%;
-  }
-  
+  }  
   #img1 {
     grid-column: 1; 
   }
@@ -109,11 +103,6 @@ header {
     grid-column: 3/4;
   }
   
-  .main-content{    
-    align-items: center;    
-    padding: 70px;
-    max-width: 100%;
-  }
   #main-text{
     grid-column: 2/3; 
     grid-row: 1;    
@@ -181,16 +170,10 @@ header {
 }
 
 /*-----------------------FORM-------------------*/
-main {
+#form-div {
   max-width: 100%;
   width: 800px;
   margin: 0 auto;
-}
-
-h3 {
-
-  font-family: 'Yusei Magic', sans-serif;
-  font-size: 20px;
 }
 
 form legend {
@@ -270,7 +253,6 @@ label.submitButton {
   text-align: center;
   font-size: 20px;
   color: white;
-  background-color: #9D0208;
-  font-family: 'Yusei Magic', sans-serif;
+  background-color: #9D0208;  
   padding: 10px;
 }

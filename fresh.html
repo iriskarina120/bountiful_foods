@@ -51,76 +51,77 @@
 
         </header>
         <main>
-            <h2>Make your drink Form</h2>
-        <p class="nine">PLEASE, COMPLETE THE INFIRMATION TO BUILD YOUR SPECIALTY DRINK</p>
-<hr>
-        <!--CONTACT FORM-->
+            <div id="form-div">
+                <h2>Make your drink Form</h2>
+                <p class="nine">PLEASE, COMPLETE THE INFIRMATION TO BUILD YOUR SPECIALTY DRINK</p>
+                <hr>
+                <!--CONTACT FORM-->
 
-        <form method="get" action="thanks.html">
+                <form method="get" action="thanks.html">
 
-            <fieldset class="form">
+                    <fieldset class="form">
 
-                <legend>Client Information</legend>
-                <!--full name-->
-                <label class="top" for="name">Full Name(required)
-                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
-                <!--I need to add more here, see the requirement page-->
-
-
-                <!--email-->
-                <label class="top" for="mail">E-mail Address
-                    <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
+                        <legend>Client Information</legend>
+                        <!--full name-->
+                        <label class="top" for="name">Full Name(required)
+                            <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+                        <!--I need to add more here, see the requirement page-->
 
 
-                <!--phone number-->
-                <label class="top" for="phone">Phone Number(required)
-                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
-                        required></label>
-            </fieldset>
-
-            <!--drink -->
-            <fieldset class="form">
-                <legend>Drink information</legend>
-                <!--strom date-->
-                <label class="middle">Fruit 1(required)
-                    <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice"></label>
-                <datalist id="storm-types">
-                    <option value="flash flood">
-                    <option value="hail">
-                    <option value="thunderstorm">
-                    <option value="tornado">
-                </datalist>
-                <label class="middle">Fruit 2
-                    <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice"></label>
-                <datalist id="storm-types">
-                    <option value="flash flood">
-                    <option value="hail">
-                    <option value="thunderstorm">
-                    <option value="tornado">
-                </datalist>
-                <label class="middle">Fruit 3
-                    <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice"></label>
-                <datalist id="storm-types">
-                    <option value="flash flood">
-                    <option value="hail">
-                    <option value="thunderstorm">
-                    <option value="tornado">
-                </datalist>    
-
-            <!--Additional information or comments-->
-            <fieldset>
-                <legend>Additional Information</legend>
-                <label class="submitButton" for="msg">Comments</label>
-                <textarea class="commentsBox" id="msg" name="user_message"></textarea>
-            </fieldset>
-
-            <!--form submission button-->
-            <input class="button" type="submit" value="CLICK to send!">
+                        <!--email-->
+                        <label class="top" for="mail">E-mail Address
+                            <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
 
 
-        </form>
-        <!--end contact form-->
-           
+                        <!--phone number-->
+                        <label class="top" for="phone">Phone Number(required)
+                            <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
+                                required></label>
+                    </fieldset>
+
+                    <!--drink -->
+                    <fieldset class="form">
+                        <legend>Drink information</legend>
+                        <!--strom date-->
+                        <label class="middle">Fruit 1(required)
+                            <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice"></label>
+                        <datalist id="storm-types">
+                            <option value="flash flood">
+                            <option value="hail">
+                            <option value="thunderstorm">
+                            <option value="tornado">
+                        </datalist>
+                        <label class="middle">Fruit 2
+                            <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice"></label>
+                        <datalist id="storm-types">
+                            <option value="flash flood">
+                            <option value="hail">
+                            <option value="thunderstorm">
+                            <option value="tornado">
+                        </datalist>
+                        <label class="middle">Fruit 3
+                            <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice"></label>
+                        <datalist id="storm-types">
+                            <option value="flash flood">
+                            <option value="hail">
+                            <option value="thunderstorm">
+                            <option value="tornado">
+                        </datalist>    
+
+                    <!--Additional information or comments-->
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <label class="submitButton" for="msg">Comments</label>
+                        <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+                    </fieldset>
+
+                    <!--form submission button-->
+                    <input class="button" type="submit" value="CLICK to send!">
+
+
+                </form>
+                <!--end contact form-->
+            </div>   
         </main>
            
         <footer class="footer-color">
