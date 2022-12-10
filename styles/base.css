@@ -4,6 +4,9 @@ header {
   background-color: #9D0208;
   height: 10.5rem;  
 }
+.center-home {
+  max-width: 100%;
+}
 
   .header-content {
     font-family: "Roboto", sans-serif;
@@ -130,6 +133,7 @@ header {
   #strip{
     align-items: stretch
   }
+
   
   /*----------Footer Styles----------*/
 .footer-color {
