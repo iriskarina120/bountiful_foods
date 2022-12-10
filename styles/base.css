@@ -85,14 +85,15 @@ header {
   nav ul {
     display:flex;
   }
-  #img-div {
+  .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     align-content: center;    
   }  
   #img1 {
-    grid-column: 1; 
+    grid-column: 1;
+    grid-row: 1; 
   }
 
   #img2 {
