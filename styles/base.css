@@ -52,15 +52,14 @@ header {
     background: transparent;
     border: none;
     font-size: 1.5rem;
-    color: #9D0208;
+    
   }
   nav ul {
     display: flex;
     justify-content:space-around;
     list-style-type: none;    
     position: absolute;
-    z-index: 1;
-    top: 100px;
+    z-index: 1;    
     right: 0px;
     width: 100%;    
   }
@@ -68,10 +67,9 @@ header {
     padding: 0.8rem 2vw;
     text-decoration:underline solid 5px;
     color: #FFBA08;    
-    font-size: 1em;
-    padding-bottom: 10px;
+    font-size: 1em;     
     height: 1rem;
-    background-color: #9D0208;
+    
   }
   nav ul li.active a {
     background-color:#FFBA08; 
@@ -84,12 +82,16 @@ header {
 
   nav ul {
     display:flex;
+    background-color: #9D0208;
+    height: 4rem;
   }
   .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    align-content: center;    
+    align-content: center;
+    max-width: 100%;  
+     
   }  
   #img1 {
     grid-column: 1;
