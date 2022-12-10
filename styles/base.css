@@ -2,9 +2,9 @@
 /*----------Header Styles----------*/
 header {
   background-color: #9D0208;
-  height: 10 rem;  
+  height: 10 rem; 
 }
-.center-home {
+.body {
   max-width: 100%;
 }
 
@@ -59,9 +59,12 @@ header {
     justify-content:space-around;
     list-style-type: none;    
     position: absolute;
+    align-items: center;
     z-index: 1;    
     right: 0px;
-    width: 100%;    
+    width: 100%; 
+    background-color: #9D0208;
+    height: 4rem;   
   }
   nav ul li a {    
     padding: 0.8rem 2vw;
@@ -80,18 +83,11 @@ header {
     color: #9D0208;       
   }
 
-  nav ul {
-    display:flex;
-    background-color: #9D0208;
-    height: 4rem;
-  }
-
   .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    align-content: center;
-    max-width: 100%;     
+    align-content: center;      
   }  
 
   #img1 {
