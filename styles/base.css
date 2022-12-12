@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
 /*----------Header Styles----------*/
 header {
+ 
   background-color: #9D0208;
-  height: 10 rem; 
+  height: 10 rem;   
 }
-.body {
-  max-width: 100%;
-}
+
 .logo {
   padding-bottom:45px ;
 }
@@ -51,7 +50,7 @@ header {
     border-radius: 5px 5px 5px 5px; 
     margin-bottom:30px ;
 }  
-  }
+  
   nav button {
     margin: 0.2rem 2vw;
     background: transparent;
@@ -61,7 +60,8 @@ header {
   
   nav ul {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    
     list-style-type: none;    
     position: absolute;
     align-items: center;
@@ -90,9 +90,8 @@ header {
 
   .main-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    align-content: center;      
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;          
   }  
 
   #img1 {
