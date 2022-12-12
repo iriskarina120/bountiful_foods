@@ -7,6 +7,9 @@ header {
 .body {
   max-width: 100%;
 }
+.logo {
+  padding-bottom:45px ;
+}
 
   .header-content {
     font-family: "Roboto", sans-serif;
@@ -45,7 +48,9 @@ header {
     margin: 0px 10px 0px 10px;
     border: #9D0208 solid 5px;
     background: #9D0208;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px; 
+    margin-bottom:30px ;
+}  
   }
   nav button {
     margin: 0.2rem 2vw;
