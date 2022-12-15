@@ -58,7 +58,7 @@
 
                 <form method="get" action="thanks.html">
 
-                    <fieldset class="form">
+                    <fieldset class="form-div">
 
                         <legend>Client Information</legend>
                         <!--full name-->
@@ -77,33 +77,75 @@
                     </fieldset>
 
                     <!--drink -->
-                    <fieldset class="form">
-                        <legend>Drink information</legend>
-                        <!--strom date-->
-                        <label class="middle">Fruit 1(required)
-                            <input class="box" list="fruits-types" id="fruit-type-options" name="fruit-type-options"></label>
-                        <datalist id="fruits-types">
-                            <option value="fruit1"><Apple></option>
-                            <option value="fruit2">Apricot</option>
-                            <option value="fruit3">Avocado</option>
-                            <option value="fruit4">Banana</option>
-                        </datalist>
-                        <label class="middle">Fruit 2
-                            <input class="box" list="fruits-types" id="fruit-type-options" name="fruit-type-options"></label>
-                        <datalist id="fruits-types">
-                            <option value="fruit1"><Apple></option>
-                            <option value="fruit2">Apricot</option>
-                            <option value="fruit3">Avocado</option>
-                            <option value="fruit4">Banana</option>
-                        </datalist>
-                        <label class="middle">Fruit 3
-                            <input class="box" list="fruits-types" id="fruit-type-options" name="fruit-type-options"></label>
-                        <datalist id="fruits-types">
-                            <option value="fruit1"><Apple></option>
-                            <option value="fruit2">Apricot</option>
-                            <option value="fruit3">Avocado</option>
-                            <option value="fruit4">Banana</option>
-                        </datalist>    
+                    
+    
+    <main>
+        <fieldset class="form-div">
+            <legend>Drink information</legend>
+            <!--strom date-->
+                
+        <div id="input1">
+            <label>Fruit 1: <span id="empty_value"></span><br>
+                <input type="text" id="text-place1" list="fruits-types" placeholder="--Select fruit 1--" required></label>
+            <button id="btn1" type="submit">Add</button>
+        </div>
+        <div id="input2">
+            <label>Fruit 2: <span id="empty_value2"></span><br>
+                <input type="text" id="text-place2" list="fruits-types" placeholder="--Select fruit 2--" required></label>
+            <button id="btn2" type="submit">Add</button>
+        </div>
+        <div id="input3">
+            <label>Fruit 3: <span id="empty_value3"></span><br>
+                <input  type="text" id="text-place3" list="fruits-types" placeholder="--Select fruit 3--" required></label>
+            <button id="btn3" type="submit">Add</button>
+        </div>
+            
+        </div>
+        <div class="listcontainer">
+            <ul id="list1"></ul>
+            <ul id="list2"></ul>
+            <ul id="list3"></ul>
+        </div>
+        
+        <div class="form-div">
+            <div class="row mt-3">
+                <div class="col">                                   
+                                
+                    <datalist id="fruits-types">
+                                                                                            
+                    </datalist><br>
+                    
+                    <datalist id="fruits-types">
+                                                        
+                    </datalist><br>
+                    
+                    <datalist id="fruits-types">
+                                                    
+                    </datalist>                           
+            
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="row">
+                <!-- Elementos generados a partir del JSON -->
+                <main id="items" class="col-sm-8 row"></main>
+                <!-- Carrito -->
+                <aside class="col-sm-4">
+                    <h2>Calculadora nutricional</h2>
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <!-- calories total -->
+                    <p class="text-right">Total Calorias: <span id="total"></span></p>
+                    <p class="text-right">Total Carbohydrates: <span id="total2"></span></p>
+                    <p class="text-right">Total Proeins: <span id="total3"></span></p>                    
+                    
+                </aside>
+                <div id="card">
+
+                    
+                </div>
 
                     <!--Additional information or comments-->
                     <fieldset>
@@ -149,12 +191,10 @@
             </div>
         </footer>
     </div>
-    <script src="./js/current-day.js"></script>
-    <script src="./js/menu-ham.js"></script>    
+    <script src="./js/current-day.js"></script>       
     <script src="./js/update.js"></script>
-    <script src="./js/drink.js"></script>
-    <script src="./js/windchill.js"></script>
-    <script src="./js/spotlight.js"></script>
+    <script src="./js/fresh.js"></script>
+    <sc
 
 </body>
   </body>
