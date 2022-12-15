@@ -189,7 +189,7 @@ header {
   margin: 0 auto;
 }
 
-form legend, #list1 {
+form legend {
   color:  #9D0208;
   margin: 15px;
   padding: 10px;
@@ -212,9 +212,7 @@ legend {
 
 label.top,
 label.middle,
-label.submitButton,
-.listcontainer
-{
+label.submitButton {
   display: block;
   padding: .75rem;
   color: black;
@@ -225,8 +223,7 @@ label.submitButton,
 
 /*input type text boxes*/
 .box,
-.smallbox,
-#list1, #list2, #list3 {
+.smallbox {
   display: block;
   font-size: 15px;
   border: 1px solid #999;
@@ -249,7 +246,7 @@ label.submitButton,
   color: black;
 }
 
-.button {
+.button-send {
   display: grid;
   border: none;
   background-color: #FFECD1;
