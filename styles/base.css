@@ -640,6 +640,7 @@ section.quick-links {
   text-align: center;
   padding: 20px;
   display: flex;
+  justify-content: space-between;
   max-width: 90%;
  
 }
@@ -653,6 +654,9 @@ section.quick-links {
   padding: 20px;    
   width: 90%;
  
+}
+section.quick-links img {
+  max-width: 0.5fr;
 }
 
 section.quick-links section {
