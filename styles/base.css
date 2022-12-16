@@ -497,7 +497,7 @@ section.gallery figure figcaption {
   padding: 0.5em;
   text-align: center;
 }
-
+quick-links
 section.gallery.refs {
   padding: 0 calc(100% - 1000px) 30px;
 }
@@ -639,8 +639,8 @@ section.quick-links {
   border-radius: 10px;
   text-align: center;
   padding: 20px;
-  display: grid;
-  width: 90%;
+  display: flex;
+  max-width: 90%;
  
 }
 
@@ -654,15 +654,7 @@ section.quick-links {
   width: 90%;
  
 }
-section.quick-links > h2 {
-  grid-column: 1 / -1;
-  font-size: 2.4rem;
-  margin-bottom: 0.25rem;
-}
-section.quick-links > span {
-  grid-column: 1 / -1;
-  
-}
+
 section.quick-links section {
   margin: 0.5rem;
   padding: 0.2rem;
