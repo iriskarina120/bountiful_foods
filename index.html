@@ -1,68 +1,61 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="utf-8" />
-      <meta name="autor" content="Iris Ayala">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="shortcut icon" href="./images/bountiful.png">
-      <link rel="stylesheet" href="styles/normalize.css">
-      <link rel="stylesheet" href="styles/base.css">
-      <link rel="stylesheet" href="styles/medium.css">
-      <link rel="stylesheet" href="styles/large.css">      
-      <meta name="description" content="Bountiful Food is a worldwide food broker with a big range of suppliers of quality fruits and vegetables at the best price.">
-      <title>Bountiful Food</title>
-      
-  </head>
-  <body>
-    <div class="center-home">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Bountiful Foods</title>
+        <meta name="description" content="Weather or Not's homepage. A little
+                information about each area and some quick links.">
+        <link rel="shortcut icon" href="./images/bountiful.png">
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles/base.css">
+        <link rel="stylesheet" href="./styles/medium.css"
+                media="(max-width: 1040px)">
+        <link rel="stylesheet" href="./styles/small.css"
+                media="(max-width: 850px)">
+        <link rel="stylesheet" href="./styles/tiny.css"
+                media="(max-width: 377px)">
+    </head>
+    <body>
+        <div class="shadow-blocker-1"></div>
+        <div class="shadow-blocker-2"></div>
         <header>
-            <div class="header-content">
-                <div class="logo">
-                    <a href="./index.html" target="_self"><img src="./images/bountiful.png" alt="Bountiful logo "
-                            height="60" /></a>
-                </div>
-                <div class="home-name">
-                    <h1>bountiful Food</h1>                    
-                </div>
-                <div class="social-media">
-                    <div class="facebook-logo">
-                        <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png"
-                                alt="facebook logo" height="32" width="32"></a>
-                    </div>
-                    <div class="instagram-logo">
-                        <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.png"
-                                alt="instagram logo" height="32" width="32"></a>
-                </div>
-                </div>
-
-                <nav>                   
-                    <ul id="primaryNav">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./fresh.html">Fresh</a></li>
-                        <li class="active"><a href="#">About Us</a></li>
-                       
-                    </ul>
-                </nav>
-               
+            <div id="logo">
+                <img src="./images/bountiful.png" alt="header logo">
+                <h1>Bountiful Foods</h1>
+                <span>The fresh you are looking for!</span>
+                
             </div>
-
-        </header>
-        <main>
-        
-            <div class="home-page">
-                <div id="main-img">                   
-                    <img src="./images/orange-strawberry.jpg" alt="Oranges and strawberries" style="width: 100%;" />
-                    <p>Bountiful Foods</p>
-                
-                    <div id="welcome-msg">                        
-                        <h2>Welcome to Bountiful Foods</h2>
-                    </div>
-                    <div id= "fresh-button">
-                        <a href="./fresh.html" target="_blank">Make your own drink mix!</a>
-                    </div>
+        </ul>
+        <div class="social-links">
+            <a href="https://currents.google.com/" target="_blank" rel="noopener">
+               <i class="fa fa-google-plus-square"></i>Google Plus</a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener">
+               <i class="fa fa-facebook-square"></i>Facebook</a>
+            <a href="https://flickr.com/" target="_blank" rel="noopener">
+               <i class="fa fa-flickr"></i>Flickr</a>
+        </div>
             
-            <div class="main-content">       
-                
+        </header>
+        <nav>
+            <ul>
+                <li class="toggler hide">
+                    <a onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a class="at" href="./">🏠 Home</a></li>               
+                <li><a class="  " href="./fresh.html">🥤 Fresh</a></li>                
+                <li><a class="  " href="./about_us.html">👋 About us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="hero homepage"></div>
+            <br>
+            <hr>
+            <div id="text-home"></div>
+            <section class="quick-links">
+                <div id="img1">                    
+                    <img src="./images/girl-watermelon.jpg" alt="Girl eating watermelon" />  
+                </div>
                 <div id="main-text">
                     <h3>The best of fruits for you!</h3>
                     <p>
@@ -73,100 +66,72 @@
                         Eat a lot every day!
                     </p>
                 </div>
-                <div id="img1">                    
-                    <img src="./images/girl-watermelon.jpg" alt="Girl eating watermelon" />  
-                </div>
-                <div id="img2">                    
-                    <img src="./images/grapes-frame.jpg" alt="Grapes frame" />
-                </div>
-                <div id="img3">  
+                <div id="img2">  
                     <img src="./images/women-vegetables.jpg" alt="Two women with vegetables"/>
                 </div>
+                </section>
             </div>
-                <hr>                   
-            </div>
-            <div id="strip">
-                <img src="./images/cinta diagonal.jpg" alt="Fruits strip" />                    
-            </div> 
-            <div class="weather-left">
-                <h3>Weather</h3>
+            
+            <div id="towns"></div>
+            <section id="weather-output">
                 <div>
+                    <h2>Current Weather</h2>                    
+        
+                    <p>
+                        The current temperature in Carlsbad, California is
+                        <span id="current-temp"></span> &deg;C
+                    </p>
+                    <p class="condition">Current Condition Icon</p>
+                    
                     <figure>
-                        <img src="#" alt="" id="weathericon" />
+                        <img src="" alt="" id="weather-icon" />
                         <figcaption></figcaption>
                     </figure>
+                    <p>Icon path: <span id="icon-src"></span></p>
                 </div>
-                <div class="temp">
-                    <img src="./images/weather.png" alt="wheather image" height="150">
-                    <p><span class="temperature"></span>&#176;C</p>
-                    
-                    <div class="wind">
-                        <p>Wind Speed: <span class="windspeed"></span> Km/h</p>
-                        <p>Wind Chill: <span class="windchill"></span></p>
-                    </div>
-                </div>
-                <hr>
-            </div>
-                <div class="news-release">
-                    <h3>Latest News</h3>
-                    <p>
-                        Next week we will have our monthly welcome meeting for new members, as well as the anniversary
-                        seremony of our community.
-
-                        We will be waiting for you!
-                    </p>
-                </div>
-                <div class="spotlight">
-                    <div class="spotlight-1">
-
-                    </div>
-                    <div class="spotlight-2">
-
-                    </div>
-                    <div class="spotlight-3">
-
-                    </div>
-                </div>
-                
-            </div>
-      
-        </main>           
-        <footer class="footer-color">
-            <div class="footer-chamber-inf">
+            </section>
+            
+            <section class="contact-info">
                 <div class="footer-logo">
-                    <img src="./images/bountiful.png" alt="Bountiful Foods Icon" width="98">
+                    <img src="./images/bountiful.png" alt="Publica-T Valle Grande" width="98">
                 </div>
-                <div class="footer-direction">
-                    <p class="bold-text">Bountiful Foods</p>
-                    <p>Carlsbad, California</p>                    
+                <div>
+                <h3>Contact Information</h3>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-location-arrow"></i>945 S<sup>th</sup>
+                        Carlsbad, <span id="brk1"></span>
+                        California, USA</li>
+                    <li><i class="fa-li fa fa-phone"></i>+1 800-880-1077</li>
+                    <li><i class="fa-li fa fa-envelope"></i>
+                        info@bountiful-foods.cl</li>
+                </ul>
                 </div>
-                <div class="footer-contact">
-                    <p>info@bountiful.com</p>
-                    <p>+56 9 45 478 152</p>                    
+                <div class="social-links">
+                    <a href="https://currents.google.com/" target="_blank" rel="noopener">
+                       <i class="fa fa-google-plus-square"></i>Google Plus</a>
+                    <a href="https://facebook.com/" target="_blank" rel="noopener">
+                       <i class="fa fa-facebook-square"></i>Facebook</a>
+                    <a href="https://flickr.com/" target="_blank" rel="noopener">
+                       <i class="fa fa-flickr"></i>Flickr</a>
                 </div>
-            </div>
-            <hr>
-            <div class="footer-course-inf">
-                <div class="footer_class">
-                    <footer>
-                        <p>
-                        &copy; <span id="year"></span>
-                        | Iris Ayala | WDD230 |                                              
-                        </p>            
-                        <p class="footer_update">Last Update:
-                        <span id="modified"> </span>
-                        </p>
-                </div>                
-            </div>
+            </section>
+        </main>
+        <footer>
+            &copy;<span class="year">2022</span> Iris Ayala | WDD230
+            <p class="footer_update">Last Update:
+                <span id="modified"> </span>
+            </p>
+            <a href="#">Terms of Use</a>
         </footer>
-    </div>
-    <script src="./js/current-day.js"></script>
-    <script src="./js/menu-ham.js"></script>    
-    <script src="./js/update.js"></script>
-    <script src="./js/banner.js"></script>
-    <script src="./js/windchill.js"></script>
-    <script src="./js/spotlight.js"></script>
+        <div id="too-small">
+            <h3>Your screen size is too small to view this page</h3>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/update.js"></script>        
+        <script src="./js/fresh.js"></script>
+        <script src="./js/weather.js"></script>
 
-</body>
-  </body>
-  </html>
+
+    </body>
+</html>
