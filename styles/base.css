@@ -525,9 +525,8 @@ section.submitted img {
 
 div.hero.homepage {
   margin-top: -1px;
-  background-image: url('../images/orange-strawberry.jpg');
-  height: 800px;
-  max-height: 800px;
+  background-image: url('../images/orange-strawberry.jpg');  
+  max-height: 500px;
 }
 #text-home {
   display: grid;
@@ -632,7 +631,6 @@ section.events span:nth-of-type(3) {
   }
 }
 
-
 section.quick-links {
   margin: 0 auto 40px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -717,7 +715,6 @@ footer a:hover {
 #too-small {
   display: none;
 }
-
 
 /* Override the original fa-spin animation */
 .fa-spin {
